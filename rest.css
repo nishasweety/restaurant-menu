@@ -1,0 +1,76 @@
+h1{
+    color: red;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    font-family:"Dancing Script", serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+body{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;  /* Centers content horizontally */
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,233,193,1) 100%);
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: black;
+    color: white;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+h2{
+    color:  rgb(3, 3, 99);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+}
+.time {
+    display: block;
+    margin: 0 auto;
+}
+
+.time table {
+    width: 50%;
+    margin: 0 auto;
+}
+.add-to-cart {
+    background-color: rgb(3, 3, 99);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#place-order{
+    background-color: rgb(3, 3, 99);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#place-order:hover {
+    background-color: red;
+}
+.add-to-cart:hover {
+    background-color: red;
+}
+ul.RN{
+        list-style-type: circle;
+        text-align: left;
+        margin: auto;
+        width: 50%;
+}
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}
